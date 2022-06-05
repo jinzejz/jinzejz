@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地表水检测</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <script src="./js/echarts.min.js"></script>
+    <script src="https://gw.alipayobjects.com/os/lib/antv/g2/4.1.49/dist/g2.min.js"></script>
+    <script src="./js/china.js"></script>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.data-set-0.11.1/dist/data-set.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/d3/6.2.0/d3.js"></script>
+    <script src="./js/echarts.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@antv/g2plot@latest/dist/g2plot.min.js"></script>
+    <script>
+        const { Heatmap } = G2Plot;
+      </script>
+      <script>
+          const { Sankey } = G2Plot;
+      </script>
+      <script>
+        const { CirclePacking } = G2Plot;
+    </script>
+</head>
+<body>
+    <div class="h"><h1>地表水检测</h1></div>
+    <div class="left">
+        <div id="bing1" style="width: 450px ; height: 350px; ">
+        PH</div>
+        <div id="bing2" style="width: 600px ; height: 300px;"></div>
+    </div>
+    <div class="right">
+        <div id="bing3" style="width: 450px; height: 400px;"></div> 
+        <div id="rili" style="width: 600px; height: 300px;"></div>
+    </div>
+    <div class="center" style="width: 600px; height: 600px;">
+        <div id="container" style="width: 700px; height: 700px;"></div>
+    </div>
+    </div>
+    <script src="./js/echarts.min.js"></script>
+    <script src="./js/bing1.js"></script>
+</body>
+</html>

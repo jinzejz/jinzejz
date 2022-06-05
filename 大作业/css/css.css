@@ -1,0 +1,92 @@
+html{
+    height:100%
+} 
+body{
+    height:100%;
+    margin:0px;
+    padding:0px;
+    background-color: rgba(254,248,239,1);
+    display: flex;
+    position: relative;
+
+} 
+
+.h{
+    position: absolute;
+    left: 650px;
+}
+
+#bing1 {
+    /* background-color: rgb(186, 57, 57); */
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    top: 10px;
+}
+
+#bing2 {
+    /* background-color: rgb(179, 169, 169); */
+    margin-top: 50px;
+    /* margin: 5px; */
+    /* position: absolute; */
+}
+
+#bing3 {
+    /* background-color: rgb(165, 205, 139); */
+    width: 300px;
+    margin-left: 100px;
+    /* position: absolute; */
+}
+
+.bing4 {
+    background-color: rgb(19, 93, 183);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    /* position: absolute; */
+}
+
+#container {
+    /* background-color: rgb(250, 0, 0); */
+    margin-top:20px;
+   
+}
+
+#rili {
+    /* background-color: darkmagenta; */
+    width: 400px;
+    height: 300px;
+    margin-top: 0px;
+    /* display: inline-block; */
+    /* padding: 0%; */
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    /* background-color: aliceblue; */
+    height: 700px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    top:55px;
+    height: 700px;
+    /* background-color: black; */
+    /* width: 600px; */
+}
+
+.center {
+    position: absolute;
+    left: 25%;
+    /* background-color: aliceblue; */
+}
+
+.BMap_cpyCtrl {
+    display:none;
+  }
+  .anchorBL{
+    display:none;
+  }
